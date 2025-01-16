@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class ChessFigure : MonoBehaviour
 {
-    [SerializeField] bool isBlack;
-    [SerializeField] GameObject possibleMovePrefab;
-    [SerializeField] Turn turn;
-    [SerializeField] Score score;
+    [SerializeField] public bool isBlack;
+    [SerializeField] public GameObject possibleMovePrefab;
+    [SerializeField] public Turn turn;
+    [SerializeField] public Score score;
 
 
     private ChessCoordinates _coords;
@@ -112,10 +112,7 @@ public class ChessFigure : MonoBehaviour
             for (int x = 0; x < 8; x++)
             {
                 Vector2Int move = new Vector2Int(x, y);
-                if (move == _coords.getChessCoordinates()) {continue;}
-
                 Vector2 movePosition = _coords.convertChessCoordinatesToPosition(move);
-
                 Vector3 worldPosition = _canvasRect.TransformPoint(movePosition);
                 Vector2 screenPosition = Camera.main.WorldToScreenPoint(worldPosition);
 

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3488812688775621993}
   - component: {fileID: 1370786418035550488}
   - component: {fileID: 7168040630766351386}
+  - component: {fileID: 8287362714811418786}
   m_Layer: 5
   m_Name: PawnWhite
   m_TagString: Untagged
@@ -79,6 +80,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isBlack: 0
   possibleMovePrefab: {fileID: 5295871997551934480, guid: df03c0e8ed6d6e4499194ddccd3aaaac, type: 3}
+  turn: {fileID: 0}
+  score: {fileID: 0}
 --- !u!114 &7168040630766351386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,6 +94,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87c653596974b86408c814fd34cbb6a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8287362714811418786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254676239987067334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7067a870db76c4c41ae69922dc2dd18c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  morphInto: {fileID: 1394485334102341652, guid: f5660a1f7aa986c46acef1fb0218d909, type: 3}
 --- !u!1 &8023125938649289427
 GameObject:
   m_ObjectHideFlags: 0

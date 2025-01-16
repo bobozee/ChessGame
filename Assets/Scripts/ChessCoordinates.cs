@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ChessCoordinates : MonoBehaviour
 {
-    [SerializeField] private Vector2Int initialChessCoordinates;
+    [SerializeField] public Vector2Int initialChessCoordinates;
     
     private Vector2Int _chessCoords;
     private Vector2 _initialPos;

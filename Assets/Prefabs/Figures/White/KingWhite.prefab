@@ -85,6 +85,8 @@ GameObject:
   - component: {fileID: 2967351636483978250}
   - component: {fileID: 4157509094139648289}
   - component: {fileID: 4243747080119017294}
+  - component: {fileID: -5293600028079951679}
+  - component: {fileID: -5532070948573764750}
   m_Layer: 5
   m_Name: KingWhite
   m_TagString: Untagged
@@ -151,6 +153,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isBlack: 0
   possibleMovePrefab: {fileID: 5295871997551934480, guid: df03c0e8ed6d6e4499194ddccd3aaaac, type: 3}
+  turn: {fileID: 0}
+  score: {fileID: 0}
 --- !u!114 &4243747080119017294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,5 +165,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f38649fa88850143a8246d03487d0ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-5293600028079951679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7125323178800846191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e7a8238f5318114089f5ab29c2ba008, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: GameOverWhiteWin
+--- !u!114 &-5532070948573764750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7125323178800846191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef7087017309b7459574f49a09d1258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

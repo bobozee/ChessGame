@@ -4,11 +4,17 @@ using UnityEngine;
 
 public class GameOverOnDeath : MonoBehaviour
 {
-    [SerializeField] string message;
+
+    private SceneLoader _sl;
+
+    void Start()
+    {
+        _sl = GetComponent<SceneLoader>();
+    }
 
     void OnDestroy()
     {
-        Debug.Log(message); //TODO
+        _sl.loadScene();
     }
 
 }

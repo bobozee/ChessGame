@@ -5,8 +5,9 @@ public class RookChessMoveRule : MonoBehaviour, IChessMoveRule
 {
     public bool isLegal(ChessMoveRuleContext context)
     {
-
-        bool isLegal = tileRule(context);
+        bool alreadyHasEnemy = false;
+        bool isLegal = tileRule(context, ref alreadyHasEnemy);
+        alreadyHasEnemy = false;
 
         if (isLegal)
         {
@@ -22,7 +23,7 @@ public class RookChessMoveRule : MonoBehaviour, IChessMoveRule
                         context.currentPosition,
                         context.figureMap,
                         context.weAreBlack
-                    ));
+                    ), ref alreadyHasEnemy);
                 }
             }
             else // march vertically
@@ -36,7 +37,7 @@ public class RookChessMoveRule : MonoBehaviour, IChessMoveRule
                         context.currentPosition,
                         context.figureMap,
                         context.weAreBlack
-                    ));
+                    ), ref alreadyHasEnemy);
                 }
             }
         }
@@ -44,11 +45,15 @@ public class RookChessMoveRule : MonoBehaviour, IChessMoveRule
         return isLegal;
     }
 
-    private bool tileRule(ChessMoveRuleContext context)
+    private bool tileRule(ChessMoveRuleContext context, ref bool alreadyHasEnemy)
     {
-        return
-            !context.hasFriend &&
-            (context.delta.x == 0 && context.delta.y != 0 || context.delta.x != 0 && context.delta.y == 0);
+        bool legal = 
+                !context.hasFriend &&
+                !alreadyHasEnemy &&
+                (context.delta.x == 0 && context.delta.y != 0 || context.delta.x != 0 && context.delta.y == 0);
+        if (legal && context.hasEnemy) { alreadyHasEnemy = true; }
+        return legal;
+
     }
 
 }

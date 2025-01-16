@@ -167,6 +167,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 422002843}
+  - {fileID: 932579724}
   m_Father: {fileID: 630857872}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -195,6 +196,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 6239251599117614525, guid: b3d7618113cc03c4b9f6390b418105a8, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 2033034156}
     - target: {fileID: 6364087158777806888, guid: b3d7618113cc03c4b9f6390b418105a8, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -381,6 +386,7 @@ GameObject:
   - component: {fileID: 461104783}
   - component: {fileID: 461104785}
   - component: {fileID: 461104784}
+  - component: {fileID: 461104786}
   m_Layer: 5
   m_Name: Value
   m_TagString: Untagged
@@ -449,6 +455,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 461104782}
   m_CullTransparentMesh: 1
+--- !u!114 &461104786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461104782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58a55e423fca66d4fb5b72496cd5a8ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 2033034154}
 --- !u!1001 &498092375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -465,6 +484,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 1341783790868686994, guid: d1f40c2d832258e4ead56244a436e37a, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 2033034156}
     - target: {fileID: 7144846908137816865, guid: d1f40c2d832258e4ead56244a436e37a, type: 3}
       propertyPath: m_Name
       value: BishopBlack (1)
@@ -566,6 +589,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 30420360820476858, guid: fbf2741597748db43b08be4ba450aabe, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1804537231}
     - target: {fileID: 5322030147063308835, guid: fbf2741597748db43b08be4ba450aabe, type: 3}
       propertyPath: m_Name
       value: BishopWhite (1)
@@ -685,6 +712,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 1370786418035550488, guid: df660c353cafc8f42b94e356a4f099fe, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1804537231}
     - target: {fileID: 3731599301901082893, guid: df660c353cafc8f42b94e356a4f099fe, type: 3}
       propertyPath: initialChessCoordinates.x
       value: 5
@@ -794,6 +825,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 6239251599117614525, guid: b3d7618113cc03c4b9f6390b418105a8, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 2033034156}
     - target: {fileID: 6364087158777806888, guid: b3d7618113cc03c4b9f6390b418105a8, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1035,6 +1070,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 5242017784524429040, guid: b9d8af941081c2245b8fc869a67f574c, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1804537231}
     - target: {fileID: 6359957383531245031, guid: b9d8af941081c2245b8fc869a67f574c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1136,6 +1175,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 630857872}
     m_Modifications:
+    - target: {fileID: 2461930065660314462, guid: b52a59a9009e4a34aa20d17fcf72a94d, type: 3}
+      propertyPath: initialChessCoordinates.x
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3208272924761696141, guid: b52a59a9009e4a34aa20d17fcf72a94d, type: 3}
       propertyPath: m_Name
       value: RookBlack (1)
@@ -1144,6 +1187,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 7778864479588085945, guid: b52a59a9009e4a34aa20d17fcf72a94d, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 2033034156}
     - target: {fileID: 8672573491857937269, guid: b52a59a9009e4a34aa20d17fcf72a94d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1234,6 +1281,95 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5795495672417674971, guid: f5660a1f7aa986c46acef1fb0218d909, type: 3}
   m_PrefabInstance: {fileID: 8856789712742691527}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &932579723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 932579724}
+  - component: {fileID: 932579727}
+  - component: {fileID: 932579726}
+  - component: {fileID: 932579725}
+  m_Layer: 5
+  m_Name: Turn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &932579724
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932579723}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 99309306}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.00000095367, y: -1092.3}
+  m_SizeDelta: {x: 160.35, y: 158.45}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &932579725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932579723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d8d23f25264b6347b97b5df056d46c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 963290667}
+--- !u!114 &932579726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932579723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f4e30a4901cca9249bab9dd50b02f6dd, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &932579727
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932579723}
+  m_CullTransparentMesh: 1
 --- !u!224 &948258439 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5541029392382596048, guid: df660c353cafc8f42b94e356a4f099fe, type: 3}
@@ -1366,6 +1502,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dbedb9dc2507074fbae7fd1e894e573, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blackTurnImage: {fileID: 21300000, guid: 593059150b36601429bc0b842ebc8670, type: 3}
+  whiteTurnImage: {fileID: 21300000, guid: f4e30a4901cca9249bab9dd50b02f6dd, type: 3}
 --- !u!1001 &1051422148
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1462,6 +1600,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 3491512745844813339, guid: 0502467b0f271a04fa97e3bcabddc682, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1804537231}
     - target: {fileID: 8574264117020315790, guid: 0502467b0f271a04fa97e3bcabddc682, type: 3}
       propertyPath: m_Name
       value: RookWhite (1)
@@ -1492,6 +1634,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 1370786418035550488, guid: df660c353cafc8f42b94e356a4f099fe, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1804537231}
     - target: {fileID: 3731599301901082893, guid: df660c353cafc8f42b94e356a4f099fe, type: 3}
       propertyPath: initialChessCoordinates.x
       value: 1
@@ -1601,6 +1747,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 1370786418035550488, guid: df660c353cafc8f42b94e356a4f099fe, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1804537231}
     - target: {fileID: 3731599301901082893, guid: df660c353cafc8f42b94e356a4f099fe, type: 3}
       propertyPath: initialChessCoordinates.x
       value: 4
@@ -1715,6 +1865,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 6239251599117614525, guid: b3d7618113cc03c4b9f6390b418105a8, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 2033034156}
     - target: {fileID: 6364087158777806888, guid: b3d7618113cc03c4b9f6390b418105a8, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1854,7 +2008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58a55e423fca66d4fb5b72496cd5a8ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  source: {fileID: 0}
+  source: {fileID: 1804537229}
 --- !u!114 &1314655495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1913,6 +2067,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 6239251599117614525, guid: b3d7618113cc03c4b9f6390b418105a8, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 2033034156}
     - target: {fileID: 6364087158777806888, guid: b3d7618113cc03c4b9f6390b418105a8, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2103,6 +2261,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 5057148569871861904, guid: 5a6a30264b0e22e41bf07a4dc5f4268b, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 2033034156}
     - target: {fileID: 6757664841428951246, guid: 5a6a30264b0e22e41bf07a4dc5f4268b, type: 3}
       propertyPath: m_Name
       value: KnightBlack (1)
@@ -2156,8 +2318,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 800, y: 800}
+  m_AnchoredPosition: {x: -0.7, y: 0}
+  m_SizeDelta: {x: 784.59, y: 800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1500295512
 MonoBehaviour:
@@ -2361,6 +2523,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 6239251599117614525, guid: b3d7618113cc03c4b9f6390b418105a8, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 2033034156}
     - target: {fileID: 6364087158777806888, guid: b3d7618113cc03c4b9f6390b418105a8, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2466,6 +2632,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 1370786418035550488, guid: df660c353cafc8f42b94e356a4f099fe, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1804537231}
     - target: {fileID: 3731599301901082893, guid: df660c353cafc8f42b94e356a4f099fe, type: 3}
       propertyPath: initialChessCoordinates.x
       value: 3
@@ -2575,6 +2745,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 1370786418035550488, guid: df660c353cafc8f42b94e356a4f099fe, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1804537231}
     - target: {fileID: 3731599301901082893, guid: df660c353cafc8f42b94e356a4f099fe, type: 3}
       propertyPath: initialChessCoordinates.x
       value: 6
@@ -2684,6 +2858,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 1370786418035550488, guid: df660c353cafc8f42b94e356a4f099fe, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1804537231}
     - target: {fileID: 3731599301901082893, guid: df660c353cafc8f42b94e356a4f099fe, type: 3}
       propertyPath: initialChessCoordinates.x
       value: 7
@@ -2803,6 +2981,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 1370786418035550488, guid: df660c353cafc8f42b94e356a4f099fe, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1804537231}
     - target: {fileID: 3731599301901082893, guid: df660c353cafc8f42b94e356a4f099fe, type: 3}
       propertyPath: initialChessCoordinates.x
       value: 2
@@ -2972,6 +3154,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 6239251599117614525, guid: b3d7618113cc03c4b9f6390b418105a8, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 2033034156}
     - target: {fileID: 6364087158777806888, guid: b3d7618113cc03c4b9f6390b418105a8, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3229,6 +3415,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 6239251599117614525, guid: b3d7618113cc03c4b9f6390b418105a8, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 2033034156}
     - target: {fileID: 6364087158777806888, guid: b3d7618113cc03c4b9f6390b418105a8, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3328,6 +3518,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1260637681587750119, guid: 44651c05b88432d41ad9945152f88210, type: 3}
   m_PrefabInstance: {fileID: 1009897963626216711}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &466958638214955825 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8365398958820461231, guid: 44651c05b88432d41ad9945152f88210, type: 3}
+  m_PrefabInstance: {fileID: 1009897963626216711}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &600984224486936014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3416,6 +3611,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3491512745844813339, guid: 0502467b0f271a04fa97e3bcabddc682, type: 3}
+      propertyPath: turn
+      value: 
+      objectReference: {fileID: 963290670}
+    - target: {fileID: 3491512745844813339, guid: 0502467b0f271a04fa97e3bcabddc682, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1804537231}
     - target: {fileID: 8574264117020315790, guid: 0502467b0f271a04fa97e3bcabddc682, type: 3}
       propertyPath: m_Name
       value: RookWhite
@@ -3437,6 +3640,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 1341783790868686994, guid: d1f40c2d832258e4ead56244a436e37a, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 2033034156}
     - target: {fileID: 7144846908137816865, guid: d1f40c2d832258e4ead56244a436e37a, type: 3}
       propertyPath: m_Name
       value: BishopBlack
@@ -3543,6 +3750,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 735670505781120803, guid: 44651c05b88432d41ad9945152f88210, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 2033034156}
     - target: {fileID: 1260637681587750119, guid: 44651c05b88432d41ad9945152f88210, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3630,7 +3841,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8365398958820461231, guid: 44651c05b88432d41ad9945152f88210, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6977538474063480870}
   m_SourcePrefab: {fileID: 100100000, guid: 44651c05b88432d41ad9945152f88210, type: 3}
 --- !u!1001 &1227975045774429080
 PrefabInstance:
@@ -3648,6 +3862,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 1370786418035550488, guid: df660c353cafc8f42b94e356a4f099fe, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1804537231}
     - target: {fileID: 3731599301901082893, guid: df660c353cafc8f42b94e356a4f099fe, type: 3}
       propertyPath: initialChessCoordinates.x
       value: 0
@@ -3753,6 +3971,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 5242017784524429040, guid: b9d8af941081c2245b8fc869a67f574c, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1804537231}
     - target: {fileID: 6359957383531245031, guid: b9d8af941081c2245b8fc869a67f574c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3868,6 +4090,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 30420360820476858, guid: fbf2741597748db43b08be4ba450aabe, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1804537231}
     - target: {fileID: 5322030147063308835, guid: fbf2741597748db43b08be4ba450aabe, type: 3}
       propertyPath: m_Name
       value: BishopWhite
@@ -3961,6 +4187,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbf2741597748db43b08be4ba450aabe, type: 3}
+--- !u!1 &3401401751233717381 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7125323178800846191, guid: bc128f636bdb448409361ef3ab4736e3, type: 3}
+  m_PrefabInstance: {fileID: 6436001193574455807}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3916457619648740363
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3977,6 +4208,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 6239251599117614525, guid: b3d7618113cc03c4b9f6390b418105a8, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 2033034156}
     - target: {fileID: 6364087158777806888, guid: b3d7618113cc03c4b9f6390b418105a8, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4158,6 +4393,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 3196989506533667650, guid: 6c27a7f933d1b034d80dff96dff26ca5, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 2033034156}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4255,6 +4494,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 5057148569871861904, guid: 5a6a30264b0e22e41bf07a4dc5f4268b, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 2033034156}
     - target: {fileID: 6757664841428951246, guid: 5a6a30264b0e22e41bf07a4dc5f4268b, type: 3}
       propertyPath: m_Name
       value: KnightBlack
@@ -4356,6 +4599,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 4157509094139648289, guid: bc128f636bdb448409361ef3ab4736e3, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1804537231}
     - target: {fileID: 7125323178800846191, guid: bc128f636bdb448409361ef3ab4736e3, type: 3}
       propertyPath: m_Name
       value: KingWhite
@@ -4363,8 +4610,23 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7125323178800846191, guid: bc128f636bdb448409361ef3ab4736e3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9219166604154371725}
   m_SourcePrefab: {fileID: 100100000, guid: bc128f636bdb448409361ef3ab4736e3, type: 3}
+--- !u!114 &6977538474063480870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466958638214955825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef7087017309b7459574f49a09d1258, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7503224730693409673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4381,6 +4643,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 7778864479588085945, guid: b52a59a9009e4a34aa20d17fcf72a94d, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 2033034156}
     - target: {fileID: 8672573491857937269, guid: b52a59a9009e4a34aa20d17fcf72a94d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4492,6 +4758,10 @@ PrefabInstance:
       propertyPath: turn
       value: 
       objectReference: {fileID: 963290670}
+    - target: {fileID: 2682955731931007363, guid: f5660a1f7aa986c46acef1fb0218d909, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1804537231}
     - target: {fileID: 5795495672417674971, guid: f5660a1f7aa986c46acef1fb0218d909, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4582,6 +4852,18 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2407823102217444045, guid: 6c27a7f933d1b034d80dff96dff26ca5, type: 3}
   m_PrefabInstance: {fileID: 4052873163526896886}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &9219166604154371725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3401401751233717381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef7087017309b7459574f49a09d1258, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -10,6 +10,7 @@ public struct ChessMoveRuleContext
     public Vector2Int delta;
     public ChessFigure[][] figureMap;
     public ChessFigure targetFigure;
+    public ChessFigure ourFigure;
     public bool weAreBlack;
     public bool hasEnemy;
     public bool hasFriend;
@@ -29,6 +30,7 @@ public struct ChessMoveRuleContext
 
         this.delta = targetPosition - currentPosition;
         this.targetFigure = figureMap[targetPosition.x][targetPosition.y];
+        this.ourFigure = figureMap[currentPosition.x][currentPosition.y];
         this.hasFriend = targetFigure && weAreBlack == targetFigure.getIsBlack();
         this.hasEnemy = targetFigure && weAreBlack != targetFigure.getIsBlack();
     }
